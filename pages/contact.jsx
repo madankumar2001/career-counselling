@@ -42,16 +42,16 @@ export default function Contact() {
             <h1>Contact Us</h1>
             <form>
                 <div className="form-group">
-                    <label for="exampleInputEmail1">Full Name</label>
+                    <label htmlFor="exampleInputEmail1">Full Name</label>
                     <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="fullname"
                      placeholder="Full Name" />
                 </div>
                 <div className="form-group">
-                    <label for="exampleInputPassword1">Phone Number</label>
+                    <label htmlFor="exampleInputPassword1">Phone Number</label>
                     <input type="number" className="form-control" id="exampleInputPassword1" placeholder="Phone Number" />
                 </div>
                 <div className="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 

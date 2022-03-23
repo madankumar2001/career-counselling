@@ -48,10 +48,10 @@ export default function Home() {
       <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block w-100" src="https://www.baccalaureateclassName.com/newimages/CAREER-COUNSELLING.png" alt="First slide" />
+            <Image className="d-block w-100" src="https://www.baccalaureateclassName.com/newimages/CAREER-COUNSELLING.png" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100" src="https://www.edumilestones.com/blog/images/career-counselling-importance.png" alt="Second slide" />
+            <Image className="d-block w-100" src="https://www.edumilestones.com/blog/images/career-counselling-importance.png" alt="Second slide" />
           </div>
           {/* <div className="carousel-item">
       <img className="d-block w-100" src="" alt="Third slide"/>
@@ -76,11 +76,11 @@ export default function Home() {
 
       <form>
         <div className="form-group">
-          <label for="exampleFormControlInput1">Full Name</label>
+          <label htmlFor="exampleFormControlInput1">Full Name</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
         </div>
         <div className="form-group">
-          <label for="exampleFormControlInput1">Phone Number</label>
+          <label htmlFor="exampleFormControlInput1">Phone Number</label>
           <input type="number" className="form-control" id="exampleFormControlInput1" placeholder="9000000000" />
         </div>
         <div className="form-group">
