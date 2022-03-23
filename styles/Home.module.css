@@ -1,0 +1,23 @@
+.head{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightgray;
+}
+
+.head div{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.head div:hover{
+background-color: gray;
+color: white;
+cursor: pointer;
+}
+
+.inputs{
+  
+}
