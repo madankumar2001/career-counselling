@@ -5,38 +5,38 @@ import Link from 'next/link'
 export default function Disclaimer() {
     return (
         <div className="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <Link href="/">
-                <a class="navbar-brand" >Career Counselling</a>
+                <a className="navbar-brand" >Career Counselling</a>
                 </Link>
                 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr-auto">
+                        <li className="nav-item active">
                             <Link href="/">
-                                <a class="nav-link">Home</a>
+                                <a className="nav-link">Home</a>
                             </Link>
 
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link href="/contact">
-                                <a class="nav-link">Contact Us</a>
+                                <a className="nav-link">Contact Us</a>
                             </Link>
 
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link href="/about">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a className="nav-link" href="#">About Us</a>
                             </Link>
 
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <Link href="/disclaimer">
-                                <a class="nav-link" href="#">Disclaimer</a>
+                                <a className="nav-link" href="#">Disclaimer</a>
                             </Link>
 
                         </li>
